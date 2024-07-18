@@ -30,9 +30,10 @@ header img {
     padding: 0px;
 }
 .container {
+    margin: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100vw;
     height: 70vh;
     gap: 10px;
@@ -43,7 +44,7 @@ header img {
     "footer footer footer";
     margin: 10px;
     padding: 0px;
-  }
+}
 .carousel img{
     grid-area: carrusel;
     width: 950px;
