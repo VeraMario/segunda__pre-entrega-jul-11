@@ -8,8 +8,9 @@ body {
     background-color: rgb(20, 3, 3);
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin: 0;
 }
-
 header {
     background-color: bisque;
     display: flex;
@@ -29,6 +30,9 @@ header img {
     margin: 15px;
     padding: 0px;
 }
+main{
+    flex: 1;
+}
 .container {
     margin: 5px;
     display: grid;
@@ -40,8 +44,7 @@ header img {
     grid-auto-flow: row;
     grid-template-areas:
     "carrusel carrusel form"
-    "form__date maps maps"
-    "footer footer footer";
+    "form__date maps maps";
     margin: 10px;
     padding: 0px;
 }
@@ -66,6 +69,7 @@ h5,p {
 .maps {
     grid-area: maps;
 }
+
 
 .form__date {
     grid-area: form__date;
@@ -111,8 +115,12 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 14px;
-    margin-top: auto;
-}
+    margin-top: auto;}
+
+
+
+
+
 .inicio__block1{ display: flex;
     flex-direction: row;
     justify-content: space-evenly;
