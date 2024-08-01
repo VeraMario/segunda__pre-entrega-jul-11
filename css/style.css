@@ -115,18 +115,6 @@
         text-align: center;    
         padding: 15px; 
     } 
-    footer{ 
-        background-color: bisque; 
-        text-align: center; 
-        padding: 10px; 
-        font-size: 14px; 
-        margin-top: auto; 
-        border-top: 3px solid white; 
-    }  
-    footer .icons i img{ 
-        width: 60px; 
-        height: 50px; 
-    } 
     .container {
         margin: auto;
         display: grid;
@@ -350,6 +338,18 @@
         font-weight: 800; 
         text-align: center; 
         color: white; 
+    } 
+    footer{ 
+        background-color: bisque; 
+        text-align: center; 
+        padding: 10px; 
+        font-size: 14px; 
+        margin-top: auto; 
+        border-top: 3px solid white; 
+    }  
+    footer .icons i img{ 
+        width: 60px; 
+        height: 50px; 
     } 
     @media (max-width: 950px) 
     {

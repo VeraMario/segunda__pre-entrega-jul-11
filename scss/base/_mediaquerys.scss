@@ -1,0 +1,709 @@
+@media (max-width: 950px) 
+{
+  header{
+    nav{
+      .navbar-nav{
+        a{ 
+          transition: 1s; 
+          font-size: 1.6rem;  
+      }  
+      }
+    }
+    .logo {
+      img{ 
+        width: 110px; 
+        height: 100px; 
+        border-radius: 20%; 
+        border: 2px solid rgb(212, 22, 22); 
+        margin: 15px; 
+        padding: 0px;
+    } 
+    }
+  }
+      footer .icons i img { 
+          width: 50px; 
+          height: 40px; 
+      } 
+      footer h4{
+          font-size: 1.2rem;
+      }
+      .container {
+          margin: auto;
+          overflow: hidden;
+          grid-template-rows: auto;
+          grid-template-columns: 1fr;
+          grid-template-areas: 
+              "carousel"
+              "form"
+              "form__date"
+              "maps";
+          height: auto;
+      }
+      .container .form {
+          width: 90%;
+          height: auto;
+          padding: 25px;
+          margin: 35px;
+          border-radius: 20px;
+          text-align: center;
+      }
+      .container .maps iframe {
+          width: 100%;
+          height: auto;
+      }
+      .container .form__date {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+      }
+      .container .form__date img {
+          position: absolute;
+          width: 80px;
+          height: 70px; 
+          margin-top: 45px;
+          margin-left: 5px;
+          border-radius: 20%;
+          border: 2px solid black;
+      }
+      .container .form__date p {
+          color: white;
+          font-size: 1.2rem;
+          font-weight: 600;
+          text-align: justify;}
+      .promociones .prom__block1{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          gap: 10px; 
+      }
+      .promociones .prom__block1 img{
+          width: 400px;
+          height: 400px;
+          }
+          .promociones .prom__block1 h2, h3, p{
+              font-size: 1.5rem;
+          }
+          .inicio .inicio__block1{ 
+              display: flex; 
+              flex-direction: column;  
+              width: 100%; 
+          } 
+          .inicio .inicio__block2{ 
+              display: flex; 
+              flex-direction: column; 
+              text-align: center; 
+          } 
+          .inicio .inicio__block3{ 
+              display: flex; 
+              flex-direction: column; 
+              width: 100%;
+          } 
+          .inicio .inicio__block1 .inicio__caja1 img{ 
+              width: 875px; 
+              height: 500px; 
+              border-radius: 20px; 
+              border: 3px solid white; 
+          } 
+          .inicio .inicio__block3 img{ 
+              width: 875px; 
+              height: 500px; 
+              margin: 15px; 
+              border-radius: 20px; 
+              border: 3px solid white; 
+              
+          } 
+          .inicio .inicio__block3 p{
+              font-size: 1.2rem;
+          }
+          .novedades .nov__block1{ 
+              display: flex; 
+              flex-direction: row; 
+              justify-content: space-evenly; 
+              flex-wrap: wrap; 
+              margin-top: 10px;
+          } 
+          .novedades .nov__text h1{ 
+              font-size: 2rem; 
+              font-weight: 900; 
+              text-align: center; 
+              color: bisque; 
+          } 
+          .novedades .nov__text h2{ 
+              font-size: 1.5rem; 
+              font-weight: 700; 
+              color: white; 
+          } 
+          .novedades img{ 
+              width: 400px; 
+              height: 400px;  
+              margin-bottom: 20px;
+              border-radius: 20px; 
+              border: 3px solid white; 
+          } 
+          .productos .prod__block1{ 
+              display: flex; 
+              flex-wrap: wrap; 
+              justify-content: space-evenly; 
+              align-items: center; 
+              width: 100%; 
+          } 
+          .productos .prod__block1 img{ 
+              width: 400px; 
+              height: 400px;  
+              border-radius: 20px; 
+          } 
+          .productos h1{ 
+              font-size: 2rem; 
+              font-weight: 900; 
+              color: bisque; 
+              text-align: center; 
+              font-style: italic; 
+          } 
+          .productos p{ 
+              font-size: 1.5rem; 
+              font-weight: 700;
+              color: bisque;  
+          } 
+}
+@media (max-width: 768px) 
+{
+  header nav .navbar-nav a{ 
+      transition: 1s; 
+      font-size: 1.5rem;  
+  }  
+  header .logo img{ 
+      width: 100px; 
+      height: 90px; 
+      border-radius: 20%; 
+      border: 2px solid black; 
+      margin: 15px; 
+      padding: 0px; 
+  }  
+  footer .icons i img{ 
+      width: 50px; 
+      height: 40px; 
+  } 
+  footer h5{
+      font-size: 1.1rem;
+  }
+  .container {
+      margin: auto;
+      overflow: hidden;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+          "carousel"
+          "form"
+          "form__date"
+          "maps";
+      height: auto;
+  }
+  .promociones .prom__block1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 10px; 
+  }
+  .promociones .prom__block1 img{
+      width: 340px;
+      height: 340px;
+      }
+      .promociones .prom__block1 .prom__caja1 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja2 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja3 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja4 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__oferta h3{
+          font-size: 1.5rem;
+      }
+      .promociones .prom__block1 h2, h3, p{
+          font-size: 1.4rem;
+          margin: 5px;
+      }
+      .inicio .inicio__block1{ 
+          display: flex; 
+          flex-direction: column;  
+          width: 100%; 
+      } 
+      .inicio .inicio__block2{ 
+          display: flex; 
+          flex-direction: column; 
+          text-align: center; 
+      } 
+      .inicio .inicio__block3{ 
+          display: flex; 
+          flex-direction: column; 
+          width: 100%;
+      } 
+      .inicio .inicio__block1 .inicio__caja1 img{ 
+          width: 675px; 
+          height: 500px; 
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+      .inicio .inicio__block3 img{ 
+          width: 675px; 
+          height: 500px; 
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+      .inicio .inicio__block3 p{
+          font-size: 1.2rem;
+      }
+      .novedades .nov__block1{ 
+          display: flex; 
+          flex-direction: row; 
+          justify-content: space-evenly; 
+          flex-wrap: wrap; 
+          margin-top: 10px;
+      } 
+      .novedades .nov__text h1{ 
+          font-size: 1.5rem; 
+          font-weight: 900; 
+          text-align: center; 
+          color: bisque; 
+      } 
+      .novedades .nov__text h2{ 
+          font-size: 1.2rem; 
+          font-weight: 700; 
+          color: white; 
+      } 
+      .novedades .nov__block1 h3{
+          background-color: black; 
+          font-size: 1.2rem; 
+          font-weight: 700; 
+          color: white; 
+      } 
+      .novedades .nov__block1 p{
+          font-size: 1.3rem;
+      }
+      .novedades img{ 
+          width: 340px; 
+          height: 340px;  
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+      .productos .prod__block1{ 
+          display: flex; 
+          flex-wrap: wrap; 
+          justify-content: space-evenly; 
+          align-items: center; 
+          width: 100%; 
+      } 
+      .productos .prod__block1 img{ 
+          width: 340px; 
+          height: 340px; 
+          border-radius: 20px; 
+      } 
+      .productos h1, h3{ 
+          font-size: 1.5rem; 
+          font-weight: 900; 
+          color: bisque; 
+          text-align: center; 
+          font-style: italic; 
+      } 
+      .productos p{ 
+          font-size: 1.2rem; 
+          font-weight: 700;
+          color: bisque;  
+      } 
+}
+@media (max-width: 480px) 
+{
+  header nav .navbar-nav a{ 
+      transition: 1s; 
+      font-size: 1.2rem;  
+  }  
+  header .logo img{ 
+      width: 90px; 
+      height: 80px; 
+      border-radius: 20%; 
+      border: 2px solid black; 
+      margin: 15px; 
+      padding: 0px; 
+  } 
+  .container{
+      display: grid;
+      grid-template-rows:0.4fr 0.3fr 0.5fr 0.3fr;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "carousel"
+      "form"
+      "form__date"
+      "maps";
+  }
+  footer .icons i img{ 
+      width: 35px; 
+      height: 30px; 
+  } 
+  footer h4{
+      font-size: 0.9rem;
+  }
+  footer h5{
+      font-size: 0.7rem;
+  }
+  .container {
+      margin: auto;
+      overflow: hidden;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+          "carousel"
+          "form"
+          "form__date"
+          "maps";
+      height: auto;
+  }
+  .promociones .prom__block1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 10px; 
+  }
+  .promociones .prom__text h1{
+      font-size: 1.5rem;
+  }
+  .promociones .prom__block1 img{
+      width: 380px;
+      height: 340px;
+      margin: 10px;
+      }
+      .promociones .prom__block1 .prom__caja1 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja2 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja3 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja4 h3{
+          font-size: 1.2rem;
+          background-color: black;
+      }
+      .promociones .prom__oferta h3{
+          font-size: 1.4rem;
+      }
+      .promociones .prom__block1 h2, h3, p{
+          font-size: 1.2rem;
+          margin: 5px;
+      }
+      .inicio .inicio__block1{ 
+          display: flex; 
+          flex-direction: column;  
+          width: 100%; 
+      } 
+      .inicio .inicio__block2{ 
+          display: flex; 
+          flex-direction: column; 
+          text-align: center; 
+      } 
+      .inicio .inicio__block3{ 
+          display: flex; 
+          flex-direction: column; 
+          width: 100%;
+      } 
+      .inicio .inicio__block1 .inicio__caja1 img{ 
+          width: 380px;
+          height: 340px;
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+      .inicio .inicio__block3 img{
+          width: 380px;
+          height: 340px; 
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+      .inicio .inicio__block3 p{
+          font-size: 1rem;
+      }
+      .inicio .inicio__block1 .inicio__caja2 h1{ 
+          font-size: 1.5rem; 
+      } 
+      .inicio .inicio__block1 .inicio__caja2 .inicio__p{ 
+          font-size: 1rem; 
+      } 
+      .inicio .inicio__block2{ 
+          display: flex; 
+          flex-direction: column; 
+          text-align: center; 
+          width: 100%;
+      } 
+      .inicio .inicio__block2 h2{ 
+      font-size: 1.5rem; 
+      } 
+      .inicio .inicio__block2 p{ 
+          font-size: 1rem;
+      } 
+      .inicio .inicio__block3{ 
+          display: flex; 
+          flex-direction: column;    
+          justify-content: space-evenly; 
+          align-items: center; 
+      } 
+      .inicio .inicio__block3 img{ 
+          width: 380px; 
+          height: 340px; 
+      } 
+      .inicio .inicio__block3 p{ 
+          background-color: black; 
+          font-size: 1rem; 
+      } 
+      .novedades .nov__block1{ 
+          display: flex; 
+          flex-direction: row; 
+          justify-content: space-evenly; 
+          flex-wrap: wrap; 
+          margin-top: 10px;
+      } 
+      .novedades .nov__text h1{ 
+          font-size: 1.5rem; 
+      } 
+      .novedades .nov__text h2{ 
+          font-size: 1.2rem; 
+      } 
+      .novedades .nov__block1 h3 { 
+          font-size: 1rem; 
+      } 
+      .novedades .nov__block1 p{
+          font-size: 1rem;
+      }
+      .novedades img{ 
+          width: 340px; 
+          height: 340px;  
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+      .productos .prod__block1{ 
+          display: flex; 
+          flex-wrap: wrap; 
+          justify-content: space-evenly; 
+          align-items: center; 
+          width: 100%; 
+      } 
+      .productos .prod__block1 img{ 
+          width: 340px; 
+          height: 340px; 
+          border-radius: 20px; 
+      } 
+      .productos h1, h3{ 
+          font-size: 1.5rem; 
+          font-weight: 900; 
+          color: bisque; 
+          text-align: center; 
+          font-style: italic; 
+      } 
+      .productos p{ 
+          font-size: 1.2rem; 
+          font-weight: 700;
+          color: bisque;  
+      } 
+}
+
+@media (max-width: 350px)  
+{
+  header nav .navbar-nav a{ 
+      transition: 1s; 
+      font-size: 1rem;  
+  }  
+  header .logo img{ 
+      width: 70px; 
+      height: 60px; 
+      border-radius: 20%; 
+      border: 2px solid black; 
+      margin: 15px; 
+      padding: 0px; 
+  } 
+  footer 
+  { .icons 
+    {
+      i {
+        img{ 
+          width: 30px; 
+          height: 25px;
+      }
+  }
+}
+}
+  footer h4{
+      font-size: 0.8rem;
+  }
+  footer h5{
+      font-size: 0.7rem;
+  }
+  .container{
+      display: grid;
+      grid-template-rows:0.2fr 0.1fr 0.5fr 0.2fr;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "carousel"
+      "form"
+      "form__date"
+      "maps";
+  }
+  .maps iframe {
+      width: 100%;
+      height: 800px;
+      padding: 10px;
+  }
+  .inicio .inicio__block1{ 
+      display: flex; 
+      flex-direction: column; 
+      overflow-x: hidden; 
+      width: 100%; 
+  } 
+  .inicio .inicio__block2{ 
+      display: flex; 
+      flex-direction: column; 
+      overflow-x: hidden; 
+      text-align: center; 
+      width: 100%;
+  } 
+  .inicio .inicio__block3{ 
+      display: flex; 
+      flex-direction: column; 
+      overflow-x: hidden; 
+      width: 100%;
+  } 
+  .inicio .inicio__block1 .inicio__caja1 img{ 
+      width: 310px;
+      height: 330px;
+      border-radius: 20px; 
+      border: 3px solid white; 
+  } 
+
+  .inicio .inicio__block3 p{
+      font-size: 0.9rem;
+  }
+  .inicio .inicio__block1 .inicio__caja2 h1{ 
+      font-size: 1rem; 
+  } 
+  .inicio .inicio__block1 .inicio__caja2 .inicio__p{ 
+      font-size: 0.9rem; 
+  } 
+  .inicio .inicio__block2 h2{ 
+  font-size: 1.rem; 
+  } 
+  .inicio .inicio__block2 p{ 
+      font-size: 1rem;
+  } 
+  .inicio .inicio__block3{ 
+      display: flex; 
+      flex-direction: column;    
+      align-items: center; 
+  } 
+  .inicio .inicio__block3 img{ 
+      width: 310px; 
+      height: 330px; 
+  } 
+  .inicio .inicio__block3 p{  
+      font-size: 1rem; 
+  } 
+  .promociones .prom__block1{
+      display: flex;
+      flex-direction: row;
+      gap: 10px; 
+  }
+  .promociones .prom__text h1{
+      font-size: 1.2rem;
+  }
+  .promociones .prom__block1 img{
+      width: 310px;
+      height: 330px;
+      margin: 10px;
+      }
+      .promociones .prom__block1 .prom__caja1 h3{
+          font-size: 1rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja2 h3{
+          font-size: 1rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja3 h3{
+          font-size: 1rem;
+          background-color: black;
+      }
+      .promociones .prom__block1 .prom__caja4 h3{
+          font-size: 1rem;
+          background-color: black;
+      }
+      .promociones .prom__oferta h3{
+          font-size: 1.1rem;
+      }
+      .promociones .prom__block1 h2, h3, p{
+          font-size: 1rem;
+          margin: 5px;
+      }
+
+      .productos .prod__block1{ 
+          display: flex; 
+          flex-direction: column;
+          align-items: center; 
+          width: 100%; 
+      } 
+      .productos .prod__block1 img{ 
+          width: 310px; 
+          height: 330px; 
+          border-radius: 20px; 
+      } 
+      .productos h1, h3{ 
+          font-size: 1.2rem; 
+          font-weight: 900; 
+          color: bisque; 
+          text-align: center; 
+          font-style: italic; 
+      } 
+      .productos .prod__block1 h3{
+          font-size: 1.2rem;
+      }
+      .productos p{ 
+          font-size: 1rem; 
+          font-weight: 700;
+          color: bisque;  
+      } 
+
+
+      .novedades .nov__block1{ 
+          display: flex; 
+flex-direction: column;
+          margin-top: 10px;
+      } 
+      .novedades .nov__text h1{ 
+          font-size: 1rem; 
+      } 
+      .novedades .nov__text h2{ 
+          font-size: 1rem; 
+      } 
+      .novedades .nov__block1 h3 { 
+          font-size: 1rem; 
+      } 
+      .novedades .nov__block1 p{
+          font-size: 1rem;
+      }
+      .novedades img{ 
+          width: 325px; 
+          height: 310px;  
+          border-radius: 20px; 
+          border: 3px solid white; 
+      } 
+}
